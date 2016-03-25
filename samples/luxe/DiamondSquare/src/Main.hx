@@ -24,7 +24,7 @@ class Main extends luxe.Game {
         m_diamondSquare = new DiamondSquare(width, height, featureSize, scale, randFunc);
         m_diamondSquare.diamondSquare();
 
-        var pixelSize = 4.0;
+        var pixelSize = 2.0;
         for(x in 0...width)
         {
             for(y in 0...height)
@@ -42,7 +42,7 @@ class Main extends luxe.Game {
         }
         
     } //ready
-    
+
     private function randFunc() : Float
     {
         return Math.random() - 0.5;
