@@ -1,0 +1,11 @@
+{
+	"name": "hxnoise",
+	"url": "https://github.com/whuop/hxnoise",
+	"license": "MIT",
+	"tags": [],
+	"description": "A collection of noise functions for Haxe. Has no dependencies to other libraries.",
+	"version": "0.0.1",
+	"releasenote": "",
+	"contributors": [ "Whuop"],
+	"dependencies": {}
+}
