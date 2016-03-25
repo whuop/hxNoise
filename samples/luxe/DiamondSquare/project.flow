@@ -1,0 +1,37 @@
+{
+
+  luxe:{
+    window: {
+      width:960,
+      height:640,
+      title:'hxNoise Diamond Square Sample',
+      fullscreen:false,
+      resizable:true,
+      borderless:false
+    }
+  },
+
+  project : {
+    name : 'hxnoise_diamond_square_sample',
+    version : '1.0.0',
+    author : 'luxeengine',
+
+    app : {
+      name : 'hxnoise_diamond_square_sample',
+      package : 'com.whuop.hxnoise-diamond-square-sample'
+    },
+
+    build : {
+      dependencies : {
+        luxe : '*',
+        hxnoise : '*'
+      }
+    },
+
+    files : {
+      assets : 'assets/'
+    }
+
+  }
+
+}
