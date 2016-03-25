@@ -1,6 +1,10 @@
 # hxNoise
 A collection of noise functions for Haxe. Has no dependencies to other libraries. 
 
+##Installation instructions
+###Using haxelib
+Clone repository or download as zip( and extract ). Open cmd/terminal of your choice and input `haxelib dev hxnoise path/to/hxnoise-root`.
+
 ##Diamond Square
 ### Usage
 The samples/luxe/DiamondSquare folder contains sample of how the algorithm can be used together with the game engine Luxe. The use sample is easily applied to your game engine of choice however. The only part that is Luxe specific in the sample is the rendering of tha float values that the algorithm generates.
