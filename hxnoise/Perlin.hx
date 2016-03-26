@@ -25,7 +25,6 @@ class Perlin
 	public function new(repeat : Int = -1) : Void
 	{
 		this.repeat = repeat;
-		//	Initialize permutation overflow vector
 		if (P == null)
 		{				
 			P = [ for (x in 0 ... 512) PERMUTATIONS[x % 256] ];
@@ -86,10 +85,11 @@ class Perlin
 		return (lerp(y1,y2,w)+1)/2;
 	}
 
-	public function OctavePerlin(x : Float, y : Float, z : Float, octaves : Int, persistence : Float, frequency : Float, amplitude : Float)
+	public function OctavePerlin(x : Float, y : Float, z : Float, octaves : Int, persistence : Float, frequency : Float)
 	{
 		var total : Float = 0.0;
 		var maxValue : Float = 0.0;
+		var amplitude : Float = 1.0;
 
 		for(i in 0...octaves)
 		{
