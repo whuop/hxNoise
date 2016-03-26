@@ -10,7 +10,7 @@ Clone repository or download as zip( and extract ). Open cmd/terminal of your ch
 ### Usage
 The `samples/luxe/Perlin` folder contains samples of how the algorithm can be used together with the game engine Luxe. The sample is easily applied to your game engine of choice however. The only part that is Luxe specific in the sample is the rendering of tha float values that the algorithm generates.
 ### Credits
-This implementation on another implementation presented here: <br>
+This implementation is based on another implementation presented here: <br>
 http://flafla2.github.io/2014/08/09/perlinnoise.html <br>
 And also on the original implementation created by Ken Perlin: <br>
 http://mrl.nyu.edu/~perlin/noise/ <br>
